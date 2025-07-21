@@ -36,6 +36,23 @@ nav ul a {
     text-decoration: none;
 }
 
+/* shared styles */
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
 .btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
@@ -55,10 +72,11 @@ nav ul {
     display: flex;
     align-items: center;
 }
-.header{
-    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: top left, bottom right;
 }
 
 /*banner-styless */
@@ -88,4 +106,27 @@ nav ul {
 
 .banner-profile-pic {
     width: 580px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about style */
+.about {
+
+    border-radius: 10px;
+    padding: 130px 156px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+display: flex;
+justify-content: space-around;
+
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
 }
